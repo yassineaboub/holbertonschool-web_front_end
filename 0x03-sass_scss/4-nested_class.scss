@@ -1,0 +1,5 @@
+/* Nested class */
+$tcolor : #3D3D3D ;
+$txcolor : #FF0000 ;
+body {color: $tcolor;}
+body .red { color: $txcolor;}
