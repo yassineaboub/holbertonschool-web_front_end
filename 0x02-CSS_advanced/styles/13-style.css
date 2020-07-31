@@ -9,7 +9,7 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-a;link {
+a:link {
     color: #161616;
     text-decoration: none;
 }
