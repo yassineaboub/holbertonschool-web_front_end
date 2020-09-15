@@ -312,7 +312,7 @@ ul.row {
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work .card-title a:hover{
+.card-work .card-title a::after{
     position: absolute;
     top: 0;
     right: 0;
@@ -320,9 +320,9 @@ ul.row {
     bottom: 0;
     content: "";
 }
-.card-work .card-title:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
-.card-title .card-work:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
