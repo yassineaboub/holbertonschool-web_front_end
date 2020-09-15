@@ -154,6 +154,8 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
+}
+.nav .nav-link::before {
     content: "";
     position: absolute;
     right: 0;
@@ -162,13 +164,15 @@ h1, h2, h3, h4, h5, h6 {
     width: 0;
     height: 2rem;
 }
-
-.nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
