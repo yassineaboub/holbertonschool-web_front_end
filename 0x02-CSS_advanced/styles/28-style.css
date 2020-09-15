@@ -249,9 +249,9 @@ ul.row {
     padding: var(--header-padding);
 }
 .header-logo {
-    --header-logo: var(--header-logo-link-position);
+    --header-logo: var(--header-logo-position);
 }
-.header-logo {
+.header-logo a{
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-display);
     top: var(--header-logo-link-top);
