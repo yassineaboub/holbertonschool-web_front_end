@@ -678,8 +678,8 @@ label {
     font-size: 1.4rem;
     padding: 0 0 .5rem;
 }
-input[target="text"],
-input[target="email"],
+input[type="text"] 
+input[type="email"],
 textarea {
     position: relative;
     width: 100%;
@@ -690,11 +690,11 @@ textarea {
     box-shadow: none;
     outline: 0;
 }
-input[target="text"],
-input[target="email"] {
+input[type="text"],
+input[type="email"] {
     padding-right: 3rem;
 }
-input:focus[target="text"] {
+input:focus[type="text"] {
     border: .1rem solid var(--color-grey);
     background-color: var(--color-light-grey);
 }
@@ -702,3 +702,4 @@ input:focus[target="text"] {
     font-style: italic;
     font-size: var(--font-size-small);
   }
+
